@@ -1,0 +1,36 @@
+# Directories
+/application/cache/*
+/application/logs/*
+/vendor/*
+/uploads/*
+/node_modules/*
+/public/uploads/*
+
+# Composer
+composer.lock
+
+# Environment variables
+.env
+
+# Ignored configuration files
+/application/config/config.php
+/application/config/database.php
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+*.sublime-project
+*.sublime-workspace
+.idea/
+*.swp
+*.iml
+*.vscode/
+
+# Other files and directories
+/.env
+/.vagrant
+/.phpunit.result.cache
+/.cache
+/.coverage
